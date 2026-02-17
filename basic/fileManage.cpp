@@ -26,7 +26,7 @@ int main(){
     return 0;
 }
 
-
+// ifstream jaab padh na haii ofstream jaab write ya to append kar na hai
 // insert fstream library 
 // step 1 : ofstream fileVariableName
 // step 2 : file.open("filename with attachement" , ios::app) 2nd argument is for appending and to avoid overwrite if we don't use this it will be overwrite with all current  file text to message you have send to it
