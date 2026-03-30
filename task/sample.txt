@@ -1,0 +1,1 @@
+the input value is 10 and 12 the answer is 22 the operation  is +
