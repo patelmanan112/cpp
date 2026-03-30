@@ -17,7 +17,7 @@ public:
         this->age = age;
     };
     ~Student(){
-        cout << "Hence you are free now";
+        cout << "Hence you are free now"<< this->name<< endl;
     }
 
     void display()
@@ -26,10 +26,15 @@ public:
     }
 };
 
+void  create(){
+Student s2("Tulya ", "male", 50);
+s2.display();
+}
 int main()
 {
     Student s1("manan", "male", 18);
     s1.display();
+    create(); 
     cout << "Iske baad jake costrutor destory hoga destructor ke madad se" << endl;
     return 0;
 }
