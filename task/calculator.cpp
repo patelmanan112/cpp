@@ -17,7 +17,7 @@ map <string , int > m1 = {
 {"Add" , 0},
 {"Sub" , 0},
 {"Mul" , 0},
-{"Div" , 0}
+{"Div" , 0},
 };
 class Add{
  public :
